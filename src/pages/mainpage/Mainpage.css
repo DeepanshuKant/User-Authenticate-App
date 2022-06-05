@@ -1,0 +1,19 @@
+.main__section {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.main__button {
+    background-color: #111111;
+    color: #39b45a;
+    font-size: 1.2rem;
+    margin: .5em;
+}
+
+.main__button:hover {
+    cursor: pointer;
+}

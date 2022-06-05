@@ -1,0 +1,30 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.input__field {
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: .5rem;
+    /* margin-bottom: .1rem; */
+    color: black;
+    font-size: 1em;
+}
+
+.login form {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type=submit] {
+    background-color: #111111;
+    color: #39b54a;
+    font-size: 1em;
+    border: 1px solid #111111;
+}

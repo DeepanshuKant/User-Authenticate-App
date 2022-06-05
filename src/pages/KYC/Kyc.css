@@ -1,0 +1,16 @@
+.main__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: white;
+}
+
+#blockpass-kyc-connect {
+
+    /* border: 1px solid red; */
+    padding: 2em;
+    background-color: #111111;
+    color: #39b45a;
+    font-size: 1.4rem;
+}

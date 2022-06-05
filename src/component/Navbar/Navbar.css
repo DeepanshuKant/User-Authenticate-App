@@ -1,0 +1,25 @@
+.navbar {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+
+.nav__button {
+    background-color: #111111;
+    color: #39b54a;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.2em;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.nav__button_change {
+    display: none;
+}
+
+.nav__button:hover {
+    cursor: pointer;
+}
