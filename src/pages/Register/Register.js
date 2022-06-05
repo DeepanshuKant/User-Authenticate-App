@@ -1,7 +1,7 @@
 import './Register.css'
 
 import { Navbar } from '../../component/Navbar/Navbar'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import axios from 'axios'
 
 function Register() {

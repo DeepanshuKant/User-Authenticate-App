@@ -14,3 +14,7 @@
     color: #39b45a;
     font-size: 1.4rem;
 }
+
+#blockpass-kyc-connect:hover {
+    cursor: pointer;
+}

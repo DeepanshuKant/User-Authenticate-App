@@ -19,8 +19,8 @@ export const Mainpage = () => {
     return (
         <>
             <div className="main__section">
-                <button className='main__button' onClick={() => window.location.href = '/dashboard'} >Dashboard</button>
-                <button className='main__button' onClick={() => window.location.href = "/kyc"} >KYC</button>
+                <button className='main__btns' onClick={() => window.location.href = '/dashboard'} >Dashboard</button>
+                <button className='main__btns' onClick={() => window.location.href = "/kyc"} >KYC</button>
             </div>
         </>
     )

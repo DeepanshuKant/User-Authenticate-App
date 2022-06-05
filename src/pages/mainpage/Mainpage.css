@@ -7,13 +7,15 @@
     padding: 1em;
 }
 
-.main__button {
-    background-color: #111111;
+.main__btns {
+    /* border: 1px solid red; */
+    background: #111111;
     color: #39b45a;
     font-size: 1.2rem;
     margin: .5em;
+    border-radius: 3px;
 }
 
-.main__button:hover {
+.main__btns:hover {
     cursor: pointer;
 }
