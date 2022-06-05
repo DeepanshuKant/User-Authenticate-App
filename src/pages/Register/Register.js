@@ -19,7 +19,7 @@ function Register() {
     async function registerUser(event) {
         event.preventDefault();
 
-        const response = await axios.post("http://localhost:3001/user/register", details)
+        const response = await axios.post("https://user-authenticate-app-backend.herokuapp.com/user/register", details)
 
         const data = response.data;
         // console.log(data)

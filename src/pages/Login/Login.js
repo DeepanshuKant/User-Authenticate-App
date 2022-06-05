@@ -19,7 +19,7 @@ function Login() {
     async function loginUser(event) {
         event.preventDefault();
 
-        const response = await axios.post("http://localhost:3001/user/login", details)
+        const response = await axios.post("https://user-authenticate-app-backend.herokuapp.com/user/login", details)
 
         const data = response.data;
         // console.log(data)
